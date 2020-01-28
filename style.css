@@ -1,0 +1,36 @@
+.hero .col-12{
+    background: url("imgs/hero1.jpg") center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    background: azure;
+}
+
+.hero .text{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;    
+height: 70vh;
+
+    
+}
+
+.hero h1{
+    font-size: 80px;
+    font-weight: 400;
+    color: azure;
+    text-shadow: black 4px;
+}
+.hero h2{
+    font-size: 50px;
+    font-weight: lighter;
+    color: white;
+    text-shadow: black 4px;
+    stroke-width: rgba(rgba(0, 0, 0, 0.699)) 5px;
+}
+.navbar{
+    width: 100%;
+}
