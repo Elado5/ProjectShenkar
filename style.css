@@ -1,66 +1,88 @@
-.hero .carousel-inner img{
+.hero .carousel-inner img {
     position: relative;
 }
 
-.hero .col-12{
+.hero .col-12 {
     padding: 0px;
 
 }
 
-.navbar{
-    background: azure;
+.navbar {
+    background: url("imgs/logo\ backgroundF.jpg") no-repeat center center;
+    background-size: cover;
+    height: auto;
 }
 
-.hero .text{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;    
-height: 70vh;
-position: absolute;
-right: 0%; 
-bottom: 450px;
-left: 0%; 
-z-index: 10;
-padding-top: 20px;
-padding-bottom: 20px;
-text-align: center; 
+
+.hero .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    position: absolute;
+    right: 0%;
+    bottom: 450px;
+    left: 0%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 
 }
 
-.navbar-brand{
+.navbar-brand {
     padding-left: 3vw;
 }
 
 
 
-.hero h1{
+.hero h1 {
     font-size: 80px;
     font-weight: 400;
     color: rgba(255, 255, 255, 1);
-    text-shadow: black 4px;
+    text-shadow: #00000047 0px 0px 4px;
 }
-.hero h2{
+
+.hero h2 {
     font-size: 50px;
     font-weight: lighter;
     color: white;
-    text-shadow: black 4px;
+    text-shadow: #00000047 0px 0px 4px;
     stroke-width: rgba(rgba(0, 0, 0, 0.699)) 5px;
 }
-.navbar{
+
+.navbar {
     width: 100%;
+    padding: 0%;
 }
 
-.nav-item{
-    
-    font-size:35px;
+.nav-item {
+
+    font-size: 35px;
     font-weight: 300;
     padding-right: 2vh;
     padding-left: 2vh;
 }
 
-.navbar-collapse{
+.navbar-collapse {
     justify-content: flex-end;
     padding-right: 3vw;
 }
 
+.filler {
+    background: url("imgs/filler2clean.png") no-repeat center center;
+    background-size: cover;
+    height: 212px;
+}
+
+.filler h1 {
+    color: #3b5779e0;
+    text-shadow: 0px 0px 3.5px #008080;
+    text-align: center;
+    padding-top: 4.8%;
+}
+
+.h1, h1 {
+    font-size: 5rem;
+}
