@@ -51,6 +51,43 @@
     stroke-width: rgba(rgba(0, 0, 0, 0.699)) 5px;
 }
 
+@media only screen and (max-width: 1064px) {
+
+    .hero .text {
+        height: 52vh;
+        bottom: 60px;
+    }
+
+    .hero h1 {
+        font-size: 50px;
+
+    }
+
+    .hero h2 {
+        font-size: 30px;
+
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .hero .text {
+        height: 25vh;
+        bottom: 60px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+
+    }
+
+    .hero h2 {
+        font-size: 16px;
+
+    }
+}
+
+
 .navbar {
     width: 100%;
     padding: 0%;
@@ -85,7 +122,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+
 }
 
 .services .icon {
@@ -124,7 +161,7 @@
     height: 212px;
     border-style: inset;
     border-top: none;
-    
+
 }
 
 .filler h1 {
@@ -147,17 +184,17 @@ h1 {
 
     /* For tablets: */
     .filler h1 {
-        font-size: 5rem ;
-    padding-top: 11px;
-}
+        font-size: 5rem;
+        padding-top: 11px;
     }
+}
 
 
 @media only screen and (max-width: 767px) {
 
     /* For mobile phones: */
     .filler h1 {
-        font-size: 3rem ;
+        font-size: 3rem;
     }
 }
 
@@ -319,205 +356,238 @@ h5 {
     }
 }
 
-.sign{
+.sign {
     width: 100%;
     height: auto;
     background: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-    font-family: "Robato",sans-serif;
+    font-family: "Robato", sans-serif;
     font-size: 17px;
-  }
-  
-  #logreg-forms{
-      width:412px;
-      margin:10vh auto;
-      background: linear-gradient(0deg, rgba(98,230,255,1) 0%, rgba(178,200,255,1) 100%);
-      box-shadow: 0 7px 7px rgba(0, 0, 0, 0.12), 0 12px 40px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  }
-  
-  #logreg-forms form {
-      width: 100%;
-      max-width: 410px;
-      padding: 15px;
-      margin: auto;
-  }
-  #logreg-forms .form-control {
-      position: relative;
-      box-sizing: border-box;
-      height: auto;
-      padding: 10px;
-      font-size: 16px;
-  }
-  #logreg-forms .form-control:focus { z-index: 2; }
-  #logreg-forms .form-signin input[type="email"] {
-      margin-bottom: -1px;
-      border-bottom-right-radius: 0;
-      border-bottom-left-radius: 0;
-  }
-  #logreg-forms .form-signin input[type="password"] {
-      border-top-left-radius: 0;
-      border-top-right-radius: 0;
-  }
-  
-  #logreg-forms .social-login{
-      width:390px;
-      margin:0 auto;
-      margin-bottom: 14px;
-  }
-  #logreg-forms .social-btn{
-      font-weight: 100;
-      color:white;
-      width:190px;
-      font-size: 0.9rem;
-  }
-  
-  #logreg-forms a{
-      display: block;
-      padding-top:10px;
-      color:#fff;
-  }
-  
-  #logreg-form .lines{
-      width:200px;
-      border:1px solid red;
-  }
-  
-  
-  #logreg-forms button[type="submit"]{ margin-top:10px; }
-  
-  #logreg-forms .facebook-btn{  background-color:#3C589C; }
-  
-  #logreg-forms .google-btn{ background-color: #DF4B3B; }
-  
-  #logreg-forms .form-reset, #logreg-forms .form-signup{ display: none; }
-  
-  #logreg-forms .form-signup .social-btn{ width:210px; }
-  
-  #logreg-forms .form-signup input { margin-bottom: 2px;}
-  
-  .form-signup .social-login{
-      width:210px !important;
-      margin: 0 auto;
-  }
-  
-  .submit{
+}
+
+#logreg-forms {
+    width: 412px;
+    margin: 10vh auto;
+    background: linear-gradient(0deg, rgba(98, 230, 255, 1) 0%, rgba(178, 200, 255, 1) 100%);
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.12), 0 12px 40px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+#logreg-forms form {
+    width: 100%;
+    max-width: 410px;
+    padding: 15px;
+    margin: auto;
+}
+
+#logreg-forms .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#logreg-forms .form-control:focus {
+    z-index: 2;
+}
+
+#logreg-forms .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#logreg-forms .form-signin input[type="password"] {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#logreg-forms .social-login {
+    width: 390px;
+    margin: 0 auto;
+    margin-bottom: 14px;
+}
+
+#logreg-forms .social-btn {
+    font-weight: 100;
+    color: white;
+    width: 190px;
+    font-size: 0.9rem;
+}
+
+#logreg-forms a {
+    display: block;
+    padding-top: 10px;
+    color: #fff;
+}
+
+#logreg-form .lines {
+    width: 200px;
+    border: 1px solid red;
+}
+
+
+#logreg-forms button[type="submit"] {
+    margin-top: 10px;
+}
+
+#logreg-forms .facebook-btn {
+    background-color: #3C589C;
+}
+
+#logreg-forms .google-btn {
+    background-color: #DF4B3B;
+}
+
+#logreg-forms .form-reset,
+#logreg-forms .form-signup {
+    display: none;
+}
+
+#logreg-forms .form-signup .social-btn {
+    width: 210px;
+}
+
+#logreg-forms .form-signup input {
+    margin-bottom: 2px;
+}
+
+.form-signup .social-login {
+    width: 210px !important;
+    margin: 0 auto;
+}
+
+.submit {
     background: darkblue;
     border-radius: 25px;
     color: #fff;
-  }
-  
-  /* Mobile */
-  
-  @media screen and (max-width:500px){
-      #logreg-forms{
-          width:300px;
-      }
-  
-      #logreg-forms  .social-login{
-          width:200px;
-          margin:0 auto;
-          margin-bottom: 10px;
-      }
-      #logreg-forms  .social-btn{
-          font-size: 1.3rem;
-          font-weight: 100;
-          color:white;
-          width:200px;
-          height: 56px;
-  
-      }
-      #logreg-forms .social-btn:nth-child(1){
-          margin-bottom: 5px;
-      }
-      #logreg-forms .social-btn span{
-          display: none;
-      }
-      #logreg-forms  .facebook-btn:after{
-          content:'Facebook';
-      }
-  
-      #logreg-forms  .google-btn:after{
-          content:'Google+';
-      }
+}
+
+/* Mobile */
+
+@media screen and (max-width:500px) {
+    #logreg-forms {
+        width: 300px;
     }
 
-    .sign .h3,h3{
-       
-            font-size: 2.5rem;
-            font-weight: lighter;
-            color: white;
-            text-shadow: 0px 0px 4px darkgrey;
+    #logreg-forms .social-login {
+        width: 200px;
+        margin: 0 auto;
+        margin-bottom: 10px;
     }
 
-    .form-signin{
-        box-shadow: 0px 0px 3px black;
+    #logreg-forms .social-btn {
+        font-size: 1.3rem;
+        font-weight: 100;
+        color: white;
+        width: 200px;
+        height: 56px;
+
     }
 
-    .context-dark, .bg-gray-dark, .bg-primary {
-        color: rgba(255, 255, 255, 0.8);
+    #logreg-forms .social-btn:nth-child(1) {
+        margin-bottom: 5px;
     }
-    
-    .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
-        color: #ffffff;
-        
-    }
-    .nav-list li {
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-    
-    .nav-list li a:hover:before {
-        margin-left: 0;
-        opacity: 1;
-        visibility: visible;
-    }
-    
-    ul, ol {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-    
-    .social-inner {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        width: 100%;
-        padding: 23px;
-        font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        text-transform: uppercase;
-        color: rgba(255, 255, 255, 0.5);
-    }
-    .social-container .col {
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        background: linear-gradient(0deg, rgb(0, 12, 70) 0%, rgb(83, 151, 214) 100%);
-    }
-    .nav-list li a:before {
-        content: "\f14f";
-        font: 400 21px/1 "Material Design Icons";
-        color: #4d6de6;
-        display: inline-block;
-        vertical-align: baseline;
-        margin-left: -28px;
-        margin-right: 7px;
-        opacity: 0;
-        visibility: hidden;
-        transition: .22s ease;
-    }
-    
-  .contact-list{
-      text-align: center;
-   }
 
-   .nav-list{
-       text-align: center;
-   }
+    #logreg-forms .social-btn span {
+        display: none;
+    }
 
-   .brand{
-       text-align: center;
-   }
+    #logreg-forms .facebook-btn:after {
+        content: 'Facebook';
+    }
 
-  .section{
-       text-align: center;
-   }
+    #logreg-forms .google-btn:after {
+        content: 'Google+';
+    }
+}
+
+.sign .h3,
+h3 {
+
+    font-size: 2.5rem;
+    font-weight: lighter;
+    color: white;
+    text-shadow: 0px 0px 4px darkgrey;
+}
+
+.form-signin {
+    box-shadow: 0px 0px 3px black;
+}
+
+.context-dark,
+.bg-gray-dark,
+.bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a,
+.footer-classic a:focus,
+.footer-classic a:active {
+    color: #ffffff;
+
+}
+
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: linear-gradient(0deg, rgb(0, 12, 70) 0%, rgb(83, 151, 214) 100%);
+}
+
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+
+.contact-list {
+    text-align: center;
+}
+
+.nav-list {
+    text-align: center;
+}
+
+.brand {
+    text-align: center;
+}
+
+.section {
+    text-align: center;
+}
