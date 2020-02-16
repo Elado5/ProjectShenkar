@@ -25,7 +25,6 @@
     bottom: 450px;
     left: 0%;
     z-index: 10;
-    padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
 
@@ -72,18 +71,71 @@
     padding-right: 3vw;
 }
 
+.services {
+    border-bottom: none;
+    background: -webkit-radial-gradient(#fdfdfd, #4dc5ff2b);
+    margin-top: 0.5%;
+}
+
+
+.service {
+    height: 470px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.services .icon {
+    background: rgb(98, 230, 255);
+    background: linear-gradient(0deg, rgba(98, 230, 255, 0.9472163865546218) 0%, rgba(21, 18, 158, 0.9640231092436975) 100%);
+    height: 125px;
+    width: 125px;
+    font-size: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.services h3 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: normal;
+    color: rgb(71, 130, 173);
+    text-align: center;
+}
+
+.service p {
+    text-transform: capitalize;
+    text-align: center;
+    color: rgb(66, 66, 90);
+    margin-top: 20px;
+    text-shadow: 0px 0px 4px white;
+}
+
 .filler {
     background: url("imgs/filler2clean.png") no-repeat center center;
     background-size: cover;
     height: 212px;
     border-style: inset;
+    border-top: none;
+    
 }
 
 .filler h1 {
-    color: #3b5779e0;
-    text-shadow: 0px 0px 3.5px #008080;
+    background: -webkit-linear-gradient(#d47affc2, #5ca7ca);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-origin: content-box;
+    text-shadow: 0px 0px 5.5px #1494a052;
     text-align: center;
-    padding-top: 4.8%;
+    padding-top: 3.2%;
 }
 
 .h1,
@@ -91,7 +143,39 @@ h1 {
     font-size: 5rem;
 }
 
-.card h5, h5 {
+@media only screen and (max-width: 1025px) {
+
+    /* For tablets: */
+    .filler h1 {
+        font-size: 5rem ;
+    padding-top: 11px;
+}
+    }
+
+
+@media only screen and (max-width: 767px) {
+
+    /* For mobile phones: */
+    .filler h1 {
+        font-size: 3rem ;
+    }
+}
+
+
+
+
+.deck1 .card-deck {
+    background: linear-gradient(0deg, rgba(255, 237, 247, 0.27) 0%, rgba(53, 94, 134, 0.14) 100%);
+    margin: 0px;
+}
+
+
+.deck1 .card {
+    background: radial-gradient(circle, rgb(238, 174, 174) 0%, rgb(224, 234, 245) 100%);
+}
+
+.deck1 .card h5,
+h5 {
     font-size: 1.6rem;
     text-align: center;
     letter-spacing: 2px;
@@ -99,7 +183,7 @@ h1 {
 }
 
 
-.card p {
+.deck1 .card p {
     margin-top: 0;
     margin-bottom: 1rem;
     text-align: center;
@@ -109,14 +193,128 @@ h1 {
 
 
 
-.card img{
+.deck1 .card img {
+
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    /* Firefox 10+, Firefox on Android */
+    filter: gray;
+    /* IE6-9 */
+    -webkit-filter: grayscale(15%);
+    /* Chrome 19+, Safari 6+, Safari 6+ iOS */
     border-style: inset;
     border-color: inherit;
 }
 
-.card-footer {
+.deck1 .card img:hover {
+    filter: none;
+    /* IE6-9 */
+    -webkit-filter: grayscale(0%);
+}
+
+
+.deck1 .card-footer {
     text-align: center;
     font-size: 1.2rem;
     letter-spacing: 2px;
     text-shadow: grey 0 0 1px;
+    background: #227ebf17;
+}
+
+.deck1 .card-body {
+    background: #005ed10a;
+}
+
+.filler2 {
+    background: url("imgs/worktrip3.jpg") no-repeat center center;
+    background-size: cover;
+    height: 212px;
+    border-style: outset;
+}
+
+.filler2 h1 {
+    background: -webkit-linear-gradient(#f3f3f3, #00f0ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #ffffffd9;
+    background-origin: content-box;
+    text-shadow: 0px 0px 5.5px #00315a85;
+    text-align: center;
+    padding-top: 3.8%;
+}
+
+
+
+.deck2 .card-deck {
+    background: linear-gradient(0deg, rgba(255, 237, 247, 0.27) 0%, rgba(22, 86, 101, 0.15) 100%);
+    margin: 0px;
+}
+
+
+.deck2 .card {
+    background: radial-gradient(circle, rgb(174, 214, 238) 0%, rgb(101, 101, 101) 100%);
+}
+
+.deck2 .card h5,
+h5 {
+    font-size: 1.6rem;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: #50a1ffa1 0px 0px 3px;
+}
+
+
+.deck2 .card p {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: black 0 0 3px;
+}
+
+
+
+.deck2 .card img {
+
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    /* Firefox 10+, Firefox on Android */
+    filter: gray;
+    /* IE6-9 */
+    -webkit-filter: grayscale(50%);
+    /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+
+
+
+
+    border-style: inset;
+    border-color: inherit;
+}
+
+.deck2 .card img:hover {
+    filter: none;
+    /* IE6-9 */
+    -webkit-filter: grayscale(0%);
+}
+
+.deck2 .card-footer {
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    text-shadow: black 0 0 3px;
+    background: #227ebf17;
+}
+
+.deck2 .card-body {
+    background: #005ed10a;
+}
+
+.deck2 .text-muted {
+    color: #ffffff !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .filler2 h1 {
+        font-size: 3.7rem !important;
+
+    }
 }
