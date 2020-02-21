@@ -1,5 +1,6 @@
 .hero .carousel-inner img {
     position: relative;
+    
 }
 
 .hero .col-12 {
@@ -553,7 +554,7 @@ ol {
     align-items: center;
     width: 100%;
     padding: 23px;
-    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font: 900 13px/1 "Lato",  "Segoe UI", 'Roboto', "Helvetica Neue", Arial, sans-serif;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.5);
 }
