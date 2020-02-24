@@ -592,3 +592,23 @@ ol {
 .section {
     text-align: center;
 }
+
+.bg-primary{
+
+ background: linear-gradient(to top, #093d82 0%, #ccffff 100%);
+
+}
+
+.card{
+    background: linear-gradient(to top, #d9edff 0%, #000000 100%);
+}
+
+
+.text-white{
+    text-shadow: 0px 0px 6px #2b80b9;
+    letter-spacing: 4px;
+}
+
+.OurTeam{
+    margin-bottom: 2%;
+}
