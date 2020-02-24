@@ -156,14 +156,14 @@
     text-shadow: 0px 0px 4px white;
 }
 
-.icon{
-    border: 5px solid  #3b5998;
-    box-shadow: 0 0 15px  #3b5998;
+.icon {
+    border: 5px solid #3b5998;
+    box-shadow: 0 0 15px #3b5998;
 }
 
-.icon:hover{
-    border: 5px solid  #0073df;
-    box-shadow: 0 0 22px  #1c91ff;
+.icon:hover {
+    border: 5px solid #0073df;
+    box-shadow: 0 0 22px #1c91ff;
     background: linear-gradient(0deg, rgba(98, 230, 255, 0.9472163865546218) 0%, rgba(21, 18, 177, 0.964) 100%);
     transition: all 0.5s ease;
 }
@@ -614,25 +614,28 @@ ol {
 .bg-primary {
 
     background: linear-gradient(to top, #093d82 0%, #ccffff 100%);
+    box-shadow: 0px 4px 8px rgb(154, 169, 187);
+
 
 }
+
 
 .card {
     background: linear-gradient(to top, #d9edff 0%, #000000 100%);
 }
 
-.workcard .card:hover{
+.workcard .card:hover {
 
-        box-shadow: 0 0 13px  #0f1933 !important;
-        transition: all 0.6s ease;
-        
+    box-shadow: 0 0 13px #0f1933 !important;
+    transition: all 0.6s ease;
+
 }
 
-.workcard .card:hover .card-title{
+.workcard .card:hover .card-title {
 
     font-size: 1.75rem;
     transition: all 0.6s ease;
-    
+
 }
 
 .text-white {
