@@ -1,3 +1,60 @@
+html {
+	scroll-behavior: smooth;
+}
+
+.float{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background: linear-gradient(0deg, rgba(9, 6, 54, 0.78) 20%, rgba(78, 111, 182, 0.88) 80%);
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0px 0px 3px #335065;
+}
+
+.float:hover{
+    box-shadow: 0px 0px 12px #001b66;
+    color: #FFF;
+}
+
+.my-float{
+	margin-top:22px;
+}
+
+@media only screen and (max-width: 1025px) {
+    .float{
+        width: 45px;
+    height: 45px;
+    bottom: 30px;
+    right: 30px;
+    font-size: 0.75rem;
+    }
+
+    .float i.fa.fa-chevron-circle-up.my-float{
+        margin-top: 16.5px ;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .float{
+        width: 30px;
+    height: 30px;
+    bottom: 20px;
+    right: 20px;
+    font-size: 0.5rem;
+    }
+
+    .float i.fa.fa-chevron-circle-up.my-float{
+        margin-top: 11px ;
+    }
+}
+
+    
+
+
 .hero .carousel-inner img {
     position: relative;
 
@@ -378,7 +435,7 @@ h5 {
 .sign {
     width: 100%;
     height: auto;
-    background: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+    background: -webkit-linear-gradient(0deg, #4284d2 0%, #9ae7e8 100%);;
     font-family: "Robato", sans-serif;
     font-size: 17px;
 }
@@ -477,7 +534,7 @@ h5 {
 }
 
 .submit {
-    background: darkblue;
+    background: #30638e;
     border-radius: 25px;
     color: #fff;
 }
