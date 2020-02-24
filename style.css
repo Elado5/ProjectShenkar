@@ -1,6 +1,6 @@
 .hero .carousel-inner img {
     position: relative;
-    
+
 }
 
 .hero .col-12 {
@@ -155,6 +155,19 @@
     margin-top: 20px;
     text-shadow: 0px 0px 4px white;
 }
+
+.icon{
+    border: 5px solid  #3b5998;
+    box-shadow: 0 0 15px  #3b5998;
+}
+
+.icon:hover{
+    border: 5px solid  #0073df;
+    box-shadow: 0 0 22px  #1c91ff;
+    background: linear-gradient(0deg, rgba(98, 230, 255, 0.9472163865546218) 0%, rgba(21, 18, 177, 0.964) 100%);
+    transition: all 0.5s ease;
+}
+
 
 .filler {
     background: url("imgs/filler2clean.png") no-repeat center center;
@@ -554,7 +567,7 @@ ol {
     align-items: center;
     width: 100%;
     padding: 23px;
-    font: 900 13px/1 "Lato",  "Segoe UI", 'Roboto', "Helvetica Neue", Arial, sans-serif;
+    font: 900 13px/1 "Lato", "Segoe UI", 'Roboto', "Helvetica Neue", Arial, sans-serif;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.5);
 }
@@ -593,22 +606,22 @@ ol {
     text-align: center;
 }
 
-.bg-primary{
+.bg-primary {
 
- background: linear-gradient(to top, #093d82 0%, #ccffff 100%);
+    background: linear-gradient(to top, #093d82 0%, #ccffff 100%);
 
 }
 
-.card{
+.card {
     background: linear-gradient(to top, #d9edff 0%, #000000 100%);
 }
 
 
-.text-white{
+.text-white {
     text-shadow: 0px 0px 6px #2b80b9;
     letter-spacing: 4px;
 }
 
-.OurTeam{
+.OurTeam {
     margin-bottom: 2%;
 }
