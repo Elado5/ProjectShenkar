@@ -232,6 +232,7 @@ html {
     height: 212px;
     border-style: inset;
     border-top: none;
+    box-shadow: 0px 0px 5px #5aa7d157;
 
 }
 
@@ -428,6 +429,13 @@ h5 {
 @media only screen and (max-width: 768px) {
     .filler2 h1 {
         font-size: 3.7rem !important;
+
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .filler2 h1 {
+        font-size: 3.2rem !important;
 
     }
 }
