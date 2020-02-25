@@ -453,12 +453,33 @@ h5 {
 }
 
 .sign {
+   
     width: 100%;
     height: auto;
-    background: -webkit-linear-gradient(0deg, #4284d2 0%, #9ae7e8 100%);;
-    font-family: "Robato", sans-serif;
-    font-size: 17px;
+    background: linear-gradient(270deg, #19445e, #4f94bb, #21406f);
+    background-size: 200% 300%;
+    -webkit-animation: Gradient 10s ease infinite;
+    -moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 25s ease infinite;
 }
+
+	
+    
+    @-webkit-keyframes Gradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+	@-moz-keyframes Gradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+	@keyframes Gradient { 
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
 
 #logreg-forms {
     width: 412px;
@@ -689,14 +710,32 @@ ol {
 }
 
 .bg-primary {
-
-    background: linear-gradient(to top, #093d82 0%, #ccffff 100%);
-    box-shadow: 0px 4px 8px rgb(154, 169, 187);
-
-
+    background: linear-gradient(-45deg, #0661a6, #290c65, #1b99ec, #01448f);
+    background-size: 500% 500%;
+    -webkit-animation: Gradient 8s ease infinite;
+    -moz-animation: Gradient 8s ease infinite;
+    animation: Gradient 15s ease infinite;
 }
 
-
+    }
+        
+        
+        @-webkit-keyframes Gradient {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+        @-moz-keyframes Gradient {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+        @keyframes Gradient { 
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+    
 .card {
     background: linear-gradient(to top, #d9edff 0%, #000000 100%);
 }
