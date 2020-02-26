@@ -85,8 +85,23 @@ html {
     z-index: 10;
     padding-bottom: 20px;
     text-align: center;
-
+	color: #FFF;
+	letter-spacing: 1px;
 }
+
+
+.hero .text {
+	background-image: url(https://media.giphy.com/media/oxBVES6dzH4Kk/giphy.gif);
+	background-size: contain;
+	color: rgba(255, 255, 255, 0.979);
+	background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: capitalize;
+	font-size: 120px;
+	line-height: .75;
+	margin: 10px 0;
+}
+
 
 .navbar-brand {
     padding-left: 3vw;
@@ -97,14 +112,12 @@ html {
 .hero h1 {
     font-size: 80px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 1);
     text-shadow: #00000047 0px 0px 4px;
 }
 
 .hero h2 {
     font-size: 50px;
     font-weight: lighter;
-    color: white;
     text-shadow: #00000047 0px 0px 4px;
     stroke-width: rgba(rgba(0, 0, 0, 0.699)) 5px;
 }
@@ -717,7 +730,7 @@ ol {
     animation: Gradient 15s ease infinite;
 }
 
-    }
+    
         
         
         @-webkit-keyframes Gradient {
